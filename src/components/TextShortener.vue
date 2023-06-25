@@ -2,6 +2,8 @@
     <div class="flex justify-center items-center min-h-screen">
       <div class="max-w-md w-full bg-white shadow-lg rounded-lg p-6">
         <h1 class="text-2xl font-bold mb-4">Shorten Your Text</h1>
+        <h4>For better results:</h4>
+        <h5>Min: 100 and Max: 300</h5>
         <textarea v-model="inputText" class="w-full h-40 mb-4 p-2 rounded-md" placeholder="Enter your text..."></textarea>
         <button @click="shortenText" class="w-full bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded">
         <span v-if="loading">Loading...</span>
