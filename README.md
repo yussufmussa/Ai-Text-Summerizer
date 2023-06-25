@@ -1,29 +1,57 @@
-# AiTextSummerizer
+Sure! Here's a sample GitHub readme file based on the provided code:
 
-This template should help get you started developing with Vue 3 in Vite.
+```markdown
+# TLDRThis App
 
-## Recommended IDE Setup
+A simple application that allows users to shorten large text using AI. It utilizes the TLDRThis API from RapidAPI to generate summarized text. Built with Vue.js 3 and styled with Tailwind CSS.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Installation
 
-## Customize configuration
+1. Clone the repository:
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+   ```shell
+   git clone https://github.com/your-username/your-repo.git
+   ```
 
-## Project Setup
+2. Install the dependencies:
 
-```sh
-npm install
+   ```shell
+   npm install
+   ```
+
+3. Update the RapidAPI key:
+
+   Replace the `'X-RapidAPI-Key'` value in the `shortenText` method with your own RapidAPI key.
+
+## Usage
+
+1. Run the development server:
+
+   ```shell
+   npm run serve
+   ```
+
+2. Open the application in your browser:
+
+   ```
+   http://localhost:8080
+   ```
+
+3. Enter your text in the input area.
+
+4. Click the "Shorten Text" button.
+
+5. The summarized text will be displayed below.
+
+## Dependencies
+
+- Vue.js 3
+- Axios
+- Tailwind CSS
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Feel free to customize and enhance the readme file based on your specific requirements and project details.
